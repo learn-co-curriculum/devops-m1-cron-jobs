@@ -51,4 +51,4 @@ $ crontab -r
 
 ## Conclusion
 
-Cron jobs are a powerful tool for automating tasks in a *Linux* system; they can be used for a wide array of applications, ranging from periodic backups and maintenance to more complex interactions. As a server administrator, it's crucial to know where the jobs are located, as well as how to modify and maintain them.
+Cron jobs are a powerful tool for automating tasks in a *Linux* system; they can be used for a wide array of applications, ranging from periodic backups and maintenance to more complex interactions. As a server administrator, it's crucial to know where the jobs are located, as well as how to modify and maintain them. 
