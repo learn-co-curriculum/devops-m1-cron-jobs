@@ -25,6 +25,26 @@ You can substitute any of the time parameters with an asterisk (`*`) when you wi
 30 5 * * * /home/john/scripts/script.sh
 ```
 
+You can also use ranges of numbers, for example `1-4`. If we want to run the same script Monday to Thursday, we could do something like:
+
+```bash
+* * * * 1-4 /home/john/scripts/script.sh
+```
+
+If instead of ranges, you simply want multiple values, you can separate them with commas, for example `14,28`. Let's say we want to run a script twice a month, we could do:
+
+```bash
+* * 14,28 * * /home/john/scripts/script.sh
+```
+
+Note that leaving time values empty with the asterisk will have the cron job run when the time is 00:00. 
+
+Lastly, if you want to set an interval instead of a specific time (e.g. every 10 minutes), you can use the *step* operator (`/`). If you want to run something every 10 minutes, you could use something like:
+
+```bash
+*/10 * * * * /home/john/scripts/script.sh
+```
+
 ## `crontab`
 
 The `crontab` command is available to manage cron jobs, and can do everything from adding/removing and listing existing jobs.
