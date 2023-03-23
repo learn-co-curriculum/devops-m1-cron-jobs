@@ -7,7 +7,7 @@
 
 ## Introduction
 
-You probably won't find it surprising to hear that it's very common to create recurring tasks on server computers (or computers in general). Anything from executing scripts, backing up data, performing maintenance, interacting with/updating running programs, etc. can be set to a schedule that gets automatically processed. These are known as a *cron job*.
+You probably won't find it surprising to hear that it's very common to create recurring tasks on server computers (or computers in general). Anything from executing scripts, backing up data, performing maintenance, interacting with/updating running programs, etc. can be set to a schedule that gets automatically processed. These are known as *cron jobs*.
 
 ## Cron Jobs
 
